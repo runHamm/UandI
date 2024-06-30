@@ -1,0 +1,14 @@
+{
+  "name": "uandi",
+  "version": "1.0.0",
+  "description": "Landing page for u and i association of friends",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "MrEkwunife",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
