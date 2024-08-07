@@ -1,0 +1,41 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+
+  @include respond(tab-port) {
+    padding: 20rem 0 10rem 0;
+  }
+}
+
+.section-achievement {
+  padding: 3.8rem 0;
+  padding-bottom: 8rem;
+  background-color: $color-grey-light-1;
+  // @include headingSecondary();
+
+  &__boxes {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+
+    &:not(:last-child) {
+      margin-bottom: 2.2rem;
+    }
+
+    .img-box {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section-membership {
+  position: relative;
+  max-width: 90rem;
+  width: 100%;
+  background-color: $color-grey-light-1;
+  padding-bottom: 14rem;
+}

@@ -3,124 +3,237 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <title>U&I</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="section-header">
-      <nav class="section-nav">
-        <div class="section-nav__logo-box">
-          <img
-            src="./img/logo.jpeg"
-            alt="UandI logo"
-            class="section-nav__logo"
-          />
-        </div>
-        <ul class="section-nav__navigations">
-          <li class="navigations__item">
-            <a href="#" class="navigations__link">About Us</a>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>01</span>About Natous</a>
           </li>
-          <li class="navigations__item">
-            <a href="#" class="navigations__link">Contact Us</a>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Your benfits</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span>Popular tours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>Book now</a>
           </li>
         </ul>
       </nav>
+    </div>
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+      </div>
 
-      <div class="section-header__textbox">
+      <div class="header__text-box">
         <h1 class="heading-primary">
-          <span class="heading-primary--main">
-            We are here because you are <span>here!</span>
-          </span>
-          <span class="heading-primary--sub">Together we can...</span>
+          <span class="heading-primary--main">You and I</span>
+          <span class="heading-primary--sub"> frienship meets support</span>
         </h1>
 
-        <div class="social-icon-box">
-          <a href="#"><i class="ph ph-facebook-logo"></i></a>
-          <a href="#"><i class="ph ph-instagram-logo"></i></a>
-          <a href="#"><i class="ph ph-whatsapp-logo"></i></a>
-        </div>
+        <a href="#" class="btn btn--white btn--animated">Read more &rarr;</a>
       </div>
     </header>
 
-    <section class="section-about">
-      <div class="u-div-center">
-        <div class="u-margin-bottom">
+    <main>
+      <section class="section-about" id="about">
+        <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
-            <span class="heading-secondary--sub">About</span>
-            <span class="heading-secondary--main">Who are we?</span>
+            <!-- <span>About</span> -->
+            Who are we?
           </h2>
         </div>
-        <p class="section-about__texts">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, atque
-          illo? Necessitatibus vero temporibus quos eos deleniti iusto quod sint
-          ipsam dicta modi. Voluptas id eius a corporis nulla magnam. Sed quo,
-          distinctio labore dolores possimus quas provident corporis modi
-          explicabo, earum qui voluptatibus atque quam eaque accusamus? Delectus
-          illo veniam quidem facere. Impedit eos maxime rem eum iste? Dolorum.
+
+        <p class="section-about__text paragraph">
+          Welcome to the U&I Association of friends, a non political, non
+          secretive organization founded in 2011 by a group of friends who came
+          together to support one another in times of need. Our motto, Love your
+          friend as yourself reflects our commitment to promoting unity,
+          understanding, and goodwill amongs our members
         </p>
+        <p class="section-about__text paragraph">
+          Our association is built on the principle of friendship, mutual
+          support, and community service. We aim to provide assistance to our
+          members in various ways including financial support, emotional support
+          and social events.
+        </p>
+        <p class="section-about__text paragraph">
+          Over the years we have organized numereous weddings, child
+          dedications, business seminars, and health workshops for our members.
+          We have also received awards from socities and ministries for our
+          contributions to the community.
+        </p>
+        <p class="section-about__text paragraph">
+          Our journey has not been without challenges, but we remain grateful
+          for the blessings and opportunities we have received. Join us in our
+          mission to spread love, kindness, and support among our members and
+          the wider community. Together lets make a difference.
+        </p>
+
+        <a href="#" class="btn-text">Read constitution &darr;</a>
+      </section>
+
+      <section class="section-achievement">
+        <div class="u-div-center">
+          <div class="u-margin-bottom">
+            <h2 class="heading-secondary">
+              <span class="heading-secondary--main">
+                Milestone and Achievements
+              </span>
+            </h2>
+          </div>
+
+          <div class="section-achievement__boxes">
+            <div class="img-box">
+              <img src="./img/achievemet_1.jpg" alt="" />
+            </div>
+
+            <p class="section-achievement-text paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
+              architecto hic dolorum optio laborum odio quos temporibus!
+              Aliquam, nam.
+            </p>
+          </div>
+
+          <div class="section-achievement__boxes">
+            <div class="img-box">
+              <img src="./img/achievemet_2.jpg" alt="" />
+            </div>
+
+            <p class="section-achievement-text paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
+              architecto hic dolorum optio laborum odio quos temporibus!
+              Aliquam, nam.
+            </p>
+          </div>
+
+          <div class="section-achievement__boxes">
+            <div class="img-box">
+              <img src="./img/achievemet_3.jpg" alt="" />
+            </div>
+
+            <p class="section-achievement-text paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
+              architecto hic dolorum optio laborum odio quos temporibus!
+              Aliquam, nam.
+            </p>
+          </div>
+
+          <div class="section-achievement__boxes">
+            <div class="img-box">
+              <img src="./img/achievemet_4.jpg" alt="" />
+            </div>
+
+            <p class="section-achievement-text paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
+              architecto hic dolorum optio laborum odio quos temporibus!
+              Aliquam, nam.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-membership container">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary-m heading-secondary">Become A Member</h2>
+        </div>
+
+        <form action="#" class="form">
+          <div class="form__first form__form">
+            <div class="form__details form__personal">
+              <span class="form__title">Personal Details</span>
+
+              <div class="form__fields">
+                <div class="form__input-fields">
+                  <label for="">Full Name</label>
+                  <input type="text" placeholder="Enter your name" />
+                </div>
+
+                <div class="form__input-fields">
+                  <label for="">Residential Address</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your Residential Address"
+                  />
+                </div>
+
+                <div class="form__input-fields">
+                  <label for="">Office Address</label>
+                  <input type="text" placeholder="Enter your office Address" />
+                </div>
+
+                <div class="form__input-fields">
+                  <label for="">Phone</label>
+                  <input type="number" placeholder="" />
+                </div>
+
+                <div class="form__input-fields">
+                  <label for="">Email</label>
+                  <input type="email" placeholder="Enter email" />
+                </div>
+
+                <div class="form__input-fields">
+                  <label for="">Preofession</label>
+                  <input type="number" placeholder="" />
+                </div>
+
+                <div class="form__input-fields">
+                  <label for="">Date of Bate</label>
+                  <input type="date" placeholder="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo-box"></div>
+      <div class="footer__navigation">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">About</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Achievements</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Membership</a>
+          </li>
+        </ul>
       </div>
-    </section>
-
-    <section class="section-achievement">
-      <div class="u-div-center">
-        <div class="u-margin-bottom">
-          <h2 class="heading-secondary">
-            <span class="heading-secondary--sub">Achievements</span>
-            <span class="heading-secondary--main">
-              Milestone and Achievements
-            </span>
-          </h2>
-        </div>
-
-        <div class="section-achievement__boxes">
-          <div class="img-box">
-            <img src="./img/achievemet_1.jpg" alt="" />
-          </div>
-
-          <p class="section-achievement-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam
-            ad nisi deleniti ea eaque. Eligendi, non rem, sint, et architecto
-            hic dolorum optio laborum odio quos temporibus! Aliquam, nam.
-          </p>
-        </div>
-
-        <div class="section-achievement__boxes">
-          <div class="img-box">
-            <img src="./img/achievemet_2.jpg" alt="" />
-          </div>
-
-          <p class="section-achievement-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam
-            ad nisi deleniti ea eaque. Eligendi, non rem, sint, et architecto
-            hic dolorum optio laborum odio quos temporibus! Aliquam, nam.
-          </p>
-        </div>
-
-        <div class="section-achievement__boxes">
-          <div class="img-box">
-            <img src="./img/achievemet_3.jpg" alt="" />
-          </div>
-
-          <p class="section-achievement-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam
-            ad nisi deleniti ea eaque. Eligendi, non rem, sint, et architecto
-            hic dolorum optio laborum odio quos temporibus! Aliquam, nam.
-          </p>
-        </div>
-
-        <div class="section-achievement__boxes">
-          <div class="img-box">
-            <img src="./img/achievemet_4.jpg" alt="" />
-          </div>
-
-          <p class="section-achievement-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam
-            ad nisi deleniti ea eaque. Eligendi, non rem, sint, et architecto
-            hic dolorum optio laborum odio quos temporibus! Aliquam, nam.
-          </p>
-        </div>
-      </div>
-    </section>
+    </footer>
   </body>
 </html>

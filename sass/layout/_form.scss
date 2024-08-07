@@ -1,0 +1,58 @@
+.form {
+  position: relative;
+  //   min-height: 49rem;
+  background-color: #fff;
+  overflow: hidden;
+  background: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  padding: 2.2rem 1.2rem;
+
+  &__form {
+    position: relative;
+    transition: all 0.4s;
+  }
+
+  &__title {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  &__fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__input-fields {
+    display: flex;
+    width: calc(100%);
+    flex-direction: column;
+
+    & label {
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: #2e2e2e;
+    }
+
+    & input {
+      outline: none;
+      font-size: 14px;
+      font-weight: 400;
+      color: #333;
+      border-radius: 6px;
+      border: 1px solid #aaa;
+      padding: 0 15px;
+      height: 42px;
+      margin: 0.6rem 0 1.6rem 0;
+    }
+  }
+}
