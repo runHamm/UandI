@@ -1,5 +1,6 @@
 *,
-*::after *::before {
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,10 +11,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
-}
-
-ul {
-  list-style: none;
+  font-weight: 400;
+  line-height: 1.4;
 }

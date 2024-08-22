@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>U&I</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="navigation">
@@ -25,212 +27,172 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>01</span>About US</a>
+            <a href="#" class="navigation__link"><span>01</span>About Us</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>02</span>Achievements</a>
+            <a href="#" class="navigation__link"
+              ><span>02</span>Achievenments</a
+            >
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link"><span>03</span>Membership</a>
+            <a href="#" class="navigation__link"><span>03</span>Gallery</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Contact Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>05</span>Become a member</a
+            >
           </li>
         </ul>
       </nav>
     </div>
     <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logo-white.png" alt="Logo" class="header__logo" />
-      </div>
-
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">You and I</span>
-          <span class="heading-primary--sub"> frienship meets support</span>
+      <img src="img/logo.png" alt="logo" class="header__logo" />
+      <div class="header__textbox">
+        <h1 class="heading-primary u-margin-bottom-huge">
+          <span class="heading-primary--main">U&I</span>
+          <span class="heading-primary--sub">Association of friends</span>
         </h1>
-
-        <a href="#" class="btn btn--white btn--animated">Read more &rarr;</a>
+        <a
+          href="https://drive.google.com/file/d/1DvfBWJqZZPfdZsv2DFiGAvuIFsSJw7U_/view?usp=sharing"
+          class="btn btn--white"
+          target="_blank"
+          >See Constitution &darr;</a
+        >
       </div>
     </header>
 
-    <main>
-      <section class="section-about" id="about">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            <!-- <span>About</span> -->
-            Who are we?
-          </h2>
-        </div>
-
-        <p class="section-about__text paragraph">
+    <section class="section-about">
+      <div class="u-center-box">
+        <h2 class="heading-secondary">Who are we?</h2>
+        <p class="paragraph">
           Welcome to the U&I Association of friends, a non political, non
           secretive organization founded in 2011 by a group of friends who came
           together to support one another in times of need. Our motto, Love your
           friend as yourself reflects our commitment to promoting unity,
-          understanding, and goodwill amongst our members
+          understanding, and goodwill amongst our members Our association is
+          built on the principle of friendship, mutual support, and community
+          service. We aim to provide assistance to our members in various ways
+          including financial support, emotional support and social events. Over
+          the years we have organized numerous weddings, child dedications,
+          business seminars, and health workshops for our members. We have also
+          received awards from societies and ministries for our contributions to
+          the community. Our journey has not been without challenges, but we
+          remain grateful for the blessings and opportunities we have received.
+          Join us in our mission to spread love, kindness, and support among our
+          members and the wider community. Together let's make a difference.
         </p>
-        <p class="section-about__text paragraph">
-          Our association is built on the principle of friendship, mutual
-          support, and community service. We aim to provide assistance to our
-          members in various ways including financial support, emotional support
-          and social events.
-        </p>
-        <p class="section-about__text paragraph">
-          Over the years we have organized numerous weddings, child
-          dedications, business seminars, and health workshops for our members.
-          We have also received awards from societies and ministries for our
-          contributions to the community.
-        </p>
-        <p class="section-about__text paragraph">
-          Our journey has not been without challenges, but we remain grateful
-          for the blessings and opportunities we have received. Join us in our
-          mission to spread love, kindness, and support among our members and
-          the wider community. Together let's make a difference.
-        </p>
+      </div>
+    </section>
 
+    <section class="section-achievements">
+      <div class="grid-2 achievements">
+        <div class="achievements__box">
+          <h3 class="heading-tertiary">20+ Years of Support</h3>
+          <p class="paragraph">
+            Supporting members and organizing community events since 2011.
+          </p>
+        </div>
+        <div class="achievements__box">
+          <h3 class="heading-tertiary">100+ Events Organized</h3>
+          <p class="paragraph">
+            Weddings, seminars, health workshops, and more.
+          </p>
+        </div>
+        <div class="achievements__box">
+          <h3 class="heading-tertiary">Award-Winning Contributions</h3>
+          <p class="paragraph">
+            Recognized by societies and ministries for our impact.
+          </p>
+        </div>
+        <div class="achievements__box">
+          <h3 class="heading-tertiary">10+ Years of Unity</h3>
+          <p class="paragraph">
+            Committed to spreading love, kindness, and support.
+          </p>
+        </div>
         <a
-          href="https://drive.google.com/file/d/1DvfBWJqZZPfdZsv2DFiGAvuIFsSJw7U_/view?usp=sharing"
-          class="btn-text"
-          >Read constitution &darr;</a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf5Q64TmqvocPu07hPnCDc9VYIGYNor7k39I3ZUlKpT1AN5FA/viewform?usp=sf_link"
+          class="btn btn--white"
+          target="_blank"
+          >Become a member &rarr;</a
         >
-      </section>
+      </div>
+    </section>
 
-      <section class="section-achievement">
-        <div class="u-div-center">
-          <div class="u-margin-bottom">
-            <h2 class="heading-secondary">
-              <span class="heading-secondary--main">
-                Milestone and Achievements
-              </span>
-            </h2>
-          </div>
-
-          <div class="section-achievement__boxes">
-            <div class="img-box">
-              <img src="./img/achievemet_1.jpg" alt="" />
-            </div>
-
-            <p class="section-achievement-text paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
-              architecto hic dolorum optio laborum odio quos temporibus!
-              Aliquam, nam.
-            </p>
-          </div>
-
-          <div class="section-achievement__boxes">
-            <div class="img-box">
-              <img src="./img/achievemet_2.jpg" alt="" />
-            </div>
-
-            <p class="section-achievement-text paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
-              architecto hic dolorum optio laborum odio quos temporibus!
-              Aliquam, nam.
-            </p>
-          </div>
-
-          <div class="section-achievement__boxes">
-            <div class="img-box">
-              <img src="./img/achievemet_3.jpg" alt="" />
-            </div>
-
-            <p class="section-achievement-text paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
-              architecto hic dolorum optio laborum odio quos temporibus!
-              Aliquam, nam.
-            </p>
-          </div>
-
-          <div class="section-achievement__boxes">
-            <div class="img-box">
-              <img src="./img/achievemet_4.jpg" alt="" />
-            </div>
-
-            <p class="section-achievement-text paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-              ipsam ad nisi deleniti ea eaque. Eligendi, non rem, sint, et
-              architecto hic dolorum optio laborum odio quos temporibus!
-              Aliquam, nam.
-            </p>
-          </div>
+    <section class="section-gallery">
+      <h2 class="heading-secondary">Gallery</h2>
+      <div class="gallery">
+        <div class="gallery__item gallery__item--1">
+          <img src="img/gallery-1.jpg" alt="" class="gallery__img" />
         </div>
-      </section>
-
-      <section class="section-membership container">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary-m heading-secondary">Become A Member</h2>
+        <div class="gallery__item gallery__item--2">
+          <img src="img/gallery-2.jpg" alt="" class="gallery__img" />
         </div>
+        <div class="gallery__item gallery__item--3">
+          <img src="img/gallery-3.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--4">
+          <img src="img/gallery-1.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--5">
+          <img src="img/gallery-1.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--6">
+          <img src="img/gallery-2.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--7">
+          <img src="img/gallery-1.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--8">
+          <img src="img/gallery-1.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--9">
+          <img src="img/gallery-3.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--10">
+          <img src="img/gallery-2.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--11">
+          <img src="img/gallery-3.jpg" alt="" class="gallery__img" />
+        </div>
+        <div class="gallery__item gallery__item--12">
+          <img src="img/gallery-1.jpg" alt="" class="gallery__img" />
+        </div>
+      </div>
+    </section>
 
-        <form action="#" class="form">
-          <div class="form__first form__form">
-            <div class="form__details form__personal">
-              <span class="form__title">Personal Details</span>
-
-              <div class="form__fields">
-                <div class="form__input-fields">
-                  <label for="">Full Name</label>
-                  <input type="text" placeholder="Enter your name" />
-                </div>
-
-                <div class="form__input-fields">
-                  <label for="">Residential Address</label>
-                  <input
-                    type="text"
-                    placeholder="Enter your Residential Address"
-                  />
-                </div>
-
-                <div class="form__input-fields">
-                  <label for="">Office Address</label>
-                  <input type="text" placeholder="Enter your office Address" />
-                </div>
-
-                <div class="form__input-fields">
-                  <label for="">Phone</label>
-                  <input type="number" placeholder="" />
-                </div>
-
-                <div class="form__input-fields">
-                  <label for="">Email</label>
-                  <input type="email" placeholder="Enter email" />
-                </div>
-
-                <div class="form__input-fields">
-                  <label for="">Preofession</label>
-                  <input type="number" placeholder="" />
-                </div>
-
-                <div class="form__input-fields">
-                  <label for="">Date of Bate</label>
-                  <input type="date" placeholder="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__logo-box"></div>
-      <div class="footer__navigation">
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a href="#" class="footer__link">About</a>
+    <footer class="section-contact">
+      <h2 class="heading-secondary">Contact Us!</h2>
+      <div class="contact">
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a href="tel:+2349096584223" class="contact__link" target="_blank">
+              <i class="ph ph-phone"></i>
+              <span>Call</span>
+            </a>
           </li>
-          <li class="footer__item">
+          <li class="contact__item">
             <a
-              href="mailto:youandiassociation@gmail.com.com"
-              class="footer__link"
-              >Contact us</a
+              href="https://wa.me/+2349096584223"
+              class="contact__link"
+              target="_blank"
             >
+              <i class="ph ph-whatsapp-logo"></i>
+              <span>WhatsApp</span>
+            </a>
           </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link">Achievements</a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link">Membership</a>
+          <li class="contact__item">
+            <a
+              href="mailto:uandifriendsassociation2011@gmail.com"
+              class="contact__link"
+              target="_blank"
+            >
+              <i class="ph ph-envelope-simple"></i>
+              <span>G-mail</span>
+            </a>
           </li>
         </ul>
       </div>

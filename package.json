@@ -1,10 +1,10 @@
 {
-  "name": "uandi_v2",
+  "name": "uandi_v3",
   "version": "1.0.0",
-  "description": "You and I association",
+  "description": "U&I Association ",
   "main": "script.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss style.css -w"
+    "compile:sass": "node-sass main.scss style.css -w"
   },
   "author": "MrEkwunife",
   "license": "ISC",
