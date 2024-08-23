@@ -19,3 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(box);
   });
 });
+
+const checkbox = document.getElementById("navi-toggle");
+const navLinks = document.querySelectorAll(".navigation__link");
+
+// Add event listeners to each navigation link
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    // Uncheck the checkbox
+    checkbox.checked = false;
+  });
+});
